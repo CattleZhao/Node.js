@@ -1,6 +1,5 @@
 var name;
 
-exports.setName = function(thyName){
-	name = thyName;
-};
 
+
+123123123123
