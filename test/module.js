@@ -1,5 +1,14 @@
-var name;
+function hello(){
 
+	var name;
 
+	this.setName = function(thyName){
+		name = thyName;
+	};
 
-123123123123
+	this.sayHello = function(){
+		console.log('Hello '+name);
+	};
+};
+
+module.exports = hello;
