@@ -1,3 +1,4 @@
 var myModule = require('./module');
-myModule.setName('zch');
-myModule.sayHello();
+hello = new myModule();
+hello.setName('zch');
+hello.sayHello();
